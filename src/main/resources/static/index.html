@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<h1>Employee Management</h1>
+<form id="employeeForm">
+    <input type="text" id="name" placeholder="Employee Name" required>
+    <input type="email" id="email" placeholder="Employee Email" required>
+    <button type="submit">Add Employee</button>
+</form>
+
+<h2>Employees List</h2>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody id="employeeList"></tbody>
+</table>
+</body>
+</html>
